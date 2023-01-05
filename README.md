@@ -15,3 +15,26 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
         8. ToDo Application
 
 ## Session 2
+
+    - Topics Covered
+        1. setState is Async
+        2. What would happen if setState was a synchronous function ?
+        3. useEffect hook
+        4. Create our own custom hook
+        5. callback function parameter in setState
+
+## Session 3
+
+    - Topics Covered
+        1. Conditional Rendering
+            a. Inline If with Logical && Operator
+            b. Inline If-Else with Conditional Operator
+            c. Preventing Component from Rendering
+        2. List and keys
+            a. Rendering Multiple Components
+            b. Basic List Component
+            c. Keys
+            d. Extracting Components with Keys
+            e. Keys Must Only Be Unique Among Siblings
+            f. Embedding map() in JSX
+        3. How keys attribute improves performance for larger data ?
