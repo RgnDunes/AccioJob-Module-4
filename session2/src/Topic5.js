@@ -1,5 +1,3 @@
-// Not working  - to be checked
-
 import React, { useState } from "react";
 import { useAsyncState } from "./hooks/useAsyncState";
 
@@ -8,14 +6,15 @@ const Topic5 = () => {
   const [consoledValue, setConsoledValue] = useAsyncState(inp);
 
   const handleOnClick = async () => {
-    console.log("1 : ", consoledValue, inp);
-    await setConsoledValue(inp);
-    console.log("2 : ", consoledValue, inp);
+    console.log("1 : ", consoledValue);
+    await setConsoledValue(inp, (currentState) => {
+      console.log("3 : ", currentState);
+    });
+    console.log("2 : ", consoledValue);
   };
 
   return (
     <div>
-      {consoledValue}
       <input
         type="text"
         value={inp}
