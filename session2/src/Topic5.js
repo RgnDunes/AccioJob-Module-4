@@ -6,11 +6,11 @@ const Topic5 = () => {
   const [consoledValue, setConsoledValue] = useAsyncState(inp);
 
   const handleOnClick = async () => {
-    console.log("1 : ", consoledValue);
+    console.log("1 : ", consoledValue); // ""
     await setConsoledValue(inp, (currentState) => {
-      console.log("3 : ", currentState);
+      console.log("3 : ", currentState); // "Hola"
     });
-    console.log("2 : ", consoledValue);
+    console.log("2 : ", consoledValue); // ""
   };
 
   return (

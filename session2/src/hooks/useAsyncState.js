@@ -1,16 +1,16 @@
 import { useState } from "react";
 
 export const useAsyncState = (initialValue) => {
-  const [state, setState] = useState(initialValue);
+  const [customHookState, setCustomHookState] = useState(initialValue);
 
   const asyncSetState = (value, callback) => {
     var promise = new Promise((resolve) => {
-      setState(value);
+      setCustomHookState(value);
       resolve(value);
     });
 
     promise.then((value) => callback(value));
   };
 
-  return [state, asyncSetState];
+  return [customHookState, asyncSetState];
 };
