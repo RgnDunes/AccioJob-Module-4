@@ -1,0 +1,49 @@
+.browser-window {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: max-content;
+  /* background-color: red; */
+}
+
+.legend {
+  color: white;
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+input {
+  /* width: ; */
+  padding: 7px 11px;
+  margin: 11px 0;
+  outline: none;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid white;
+  font-size: 1.2em;
+  color: white;
+}
+
+button {
+  width: 150px;
+  padding: 11px 15px;
+  font-size: 1.3em;
+}
+
+.error {
+  color: red;
+  margin: 11px 0px 40px 0px;
+}
+
+.success {
+  color: green;
+  margin: 11px 0px 40px 0px;
+}

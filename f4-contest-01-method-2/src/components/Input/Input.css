@@ -1,0 +1,10 @@
+.input-field {
+  padding: 9px 11px;
+  margin: 11px 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 1.2em;
+  background-color: black;
+}
