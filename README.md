@@ -38,3 +38,19 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
             e. Keys Must Only Be Unique Among Siblings
             f. Embedding map() in JSX
         3. How keys attribute improves performance for larger data ?
+
+## Session 4
+
+    - Topics Covered
+        1. Hooks
+            a. useState
+            b. useEffect
+            c. useReducer
+            d. useContext
+            e. useMemo
+            f. useHistory
+            g. useLocation
+            h. useParams
+            i. useRef
+        2. Basic gist of react-router-dom
+        3. basic gist of axios
