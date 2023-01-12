@@ -54,3 +54,21 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
             i. useRef
         2. Basic gist of react-router-dom
         3. basic gist of axios
+
+## Session 5
+
+    - Topics Covered
+        1. setState is Async
+        2. What would happen if setState was a synchronous function ?
+        3. useEffect hook
+        4. Create our own custom hook
+        5. callback function parameter in setState
+
+## Session 6
+
+    - Topics Covered
+        1. What are APIs ?
+        2. Consuming APIs using `fetch` method.
+        3. Consuming APIs using `axios`.
+        4. Difference between `fetch` method & `axios`.
+        5. Basic gist of react-query is and how to use it.
