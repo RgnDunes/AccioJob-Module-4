@@ -73,7 +73,6 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
         4. Difference between `fetch` method & `axios`.
         5. Basic gist of react-query is and how to use it.
 
-
 ## Session 7
 
     - Topics Covered
@@ -85,3 +84,21 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
         6. Redirects
         7. Better way to write Routes
         8. No Match case
+
+## Session 8
+
+    - Topics Covered
+        1. What is React Router ?
+        2. Configure the Router
+        3. Defining Routes
+        4. Handling Navigation
+        5. Dynamic Routing
+        6. Routing Priority
+        7. Nested Routes
+        8. Shared Layouts
+        9. Outlet Context
+        10. useRoutes Hook
+        11. Confusion regarding replace (only replaces the current page in browser history)
+        12. Manual Navigation (Navigate Component, useNavigation Hook)
+        13. Navigation Data
+        14. BrowserRouter in Depth
