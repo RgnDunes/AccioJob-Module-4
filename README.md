@@ -72,3 +72,16 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
         3. Consuming APIs using `axios`.
         4. Difference between `fetch` method & `axios`.
         5. Basic gist of react-query is and how to use it.
+
+
+## Session 7
+
+    - Topics Covered
+        1. What is React Router ?
+        2. What are Switch, Link, Route ?
+        3. Url Parameters
+        4. useHistory, useLocation hooks
+        5. Preventing Transition (Prompt)
+        6. Redirects
+        7. Better way to write Routes
+        8. No Match case
