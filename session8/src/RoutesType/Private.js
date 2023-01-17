@@ -5,7 +5,6 @@ const Private = (props) => {
   return (
     <div>
       {props.isUserAuthenticated ? <Outlet /> : <Navigate to="/login" />}
-      <Outlet />
     </div>
   );
 };

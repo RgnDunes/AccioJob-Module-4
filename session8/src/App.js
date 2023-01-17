@@ -2,30 +2,30 @@ import React, { useState } from "react";
 
 // import { Routes, Route, Link, useRoutes } from "react-router-dom";
 
-import Home from "./Home";
-import BookList from "./BookList";
-import Book from "./Book";
-import NewBook from "./NewBook";
-import NotFound from "./NotFound";
-import BooksLayout from "./BooksLayout";
+// import Home from "./Home";
+// import BookList from "./BookList";
+// import Book from "./Book";
+// import NewBook from "./NewBook";
+// import NotFound from "./NotFound";
+// import BooksLayout from "./BooksLayout";
 
 import CustomRoutes from "./RoutesType/CustomRoutes";
 
-const InitialBookList = [
-  {
-    id: 1,
-    name: "Arms And The Man",
-    author: "George Bernard Shaw",
-  },
-  {
-    id: 2,
-    name: "Merchant of Venice",
-    author: "William Shakespeare",
-  },
-];
+// const InitialBookList = [
+//   {
+//     id: 1,
+//     name: "Arms And The Man",
+//     author: "George Bernard Shaw",
+//   },
+//   {
+//     id: 2,
+//     name: "Merchant of Venice",
+//     author: "William Shakespeare",
+//   },
+// ];
 
 const App = () => {
-  const [bookList, setBookList] = useState(InitialBookList);
+  // const [bookList, setBookList] = useState(InitialBookList);
 
   // const element = useRoutes([
   //   {

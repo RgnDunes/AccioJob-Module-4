@@ -1,0 +1,23 @@
+.App-light {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+.App-dark {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.p-light,
+.h2-light {
+  color: black;
+  background-color: white;
+}
+
+.p-dark,
+.h2-dark {
+  color: white;
+  background-color: black;
+}

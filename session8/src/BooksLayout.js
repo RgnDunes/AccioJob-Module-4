@@ -15,10 +15,10 @@ const BooksLayout = (props) => {
           {" "}
           <Link to="/books/2">Book 2</Link>
         </li>
-        <li>
+        {/* <li>
           {" "}
           <Link to="/books/new">New Book</Link>
-        </li>
+        </li> */}
       </nav>
       <Outlet context={{ bookList: props.bookList }} />
     </div>
