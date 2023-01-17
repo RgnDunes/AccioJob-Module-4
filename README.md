@@ -102,3 +102,4 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
         12. Manual Navigation (Navigate Component, useNavigation Hook)
         13. Navigation Data
         14. BrowserRouter in Depth
+        15. Restricted Routes and Private Routes
