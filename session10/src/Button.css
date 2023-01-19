@@ -1,0 +1,24 @@
+button {
+  padding: 5px 11px;
+  border: none;
+  border-radius: 3px;
+}
+
+.text {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+}
+
+.contained {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.success {
+  color: white;
+}
+
+.error {
+  color: red;
+}

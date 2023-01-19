@@ -1,0 +1,46 @@
+.card {
+  background-color: white;
+  margin: 10px;
+  width: max-content;
+  padding: 11px;
+  border-radius: 3px;
+}
+
+.card-header-text {
+  font-size: 34px;
+  font-weight: 300;
+}
+
+.card-progress {
+  color: dodgerblue;
+}
+
+h3 {
+  font-weight: 150;
+  font-size: 21px;
+  font-weight: 250;
+}
+
+.action-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cancel-btn {
+  background-color: red;
+  color: white;
+  outline: none;
+  border-radius: 7px;
+  padding: 5px 11px;
+  border: none;
+}
+
+.success-btn {
+  background-color: green;
+  color: white;
+  outline: none;
+  border-radius: 7px;
+  padding: 5px 11px;
+  border: none;
+}
