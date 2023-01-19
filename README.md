@@ -132,7 +132,7 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
         10. How to dispatch an action ?
         11. A sample booklist project to showcase how to put redux code together.
 
-## Session 12
+## Session 12 (Redux Devtools Extension: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd/related?hl=en)
 
     - Topics Covered (Redux)
         1. Redux DevTools
