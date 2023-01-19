@@ -67,15 +67,20 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
 ## Session 6
 
     - Topics Covered
+        1. Contest 01 Discussion
+
+## Session 7
+
+    - Topics Covered
         1. What are APIs ?
         2. Consuming APIs using `fetch` method.
         3. Consuming APIs using `axios`.
         4. Difference between `fetch` method & `axios`.
         5. Basic gist of react-query is and how to use it.
 
-## Session 7
+## Session 8
 
-    - Topics Covered
+    - Topics Covered (React Router v5)
         1. What is React Router ?
         2. What are Switch, Link, Route ?
         3. Url Parameters
@@ -85,9 +90,9 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
         7. Better way to write Routes
         8. No Match case
 
-## Session 8
+## Session 9
 
-    - Topics Covered
+    - Topics Covered (React Router v6)
         1. What is React Router ?
         2. Configure the Router
         3. Defining Routes
@@ -103,3 +108,65 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
         13. Navigation Data
         14. BrowserRouter in Depth
         15. Restricted Routes and Private Routes
+
+## Session 10
+
+    - Topics Covered (Lifting State Up)
+        1. What is Lifting State Up ?
+        2. React Context API
+        3. Zustand
+        4. Quick Recap of useContextAPI
+
+## Session 11
+
+    - Topics Covered (React Composition Model + Redux)
+        1. What is React Composition Model ?
+        2. Benefits of breaking component into sub components
+        3. What is Redux ?
+        4. Why is it used ?
+        5. How does it solve prop-drilling ?
+        6. How does it go well with React ?
+        7. What is a Redux Store ?
+        8. What are Actions ?
+        9. What are reducers ?
+        10. How to dispatch an action ?
+        11. A sample booklist project to showcase how to put redux code together.
+
+## Session 12
+
+    - Topics Covered (Redux)
+        1. Redux DevTools
+        2. What is an Interceptor ?
+        3. What is a Middleware ?
+        4. How is middleware used ?
+        5. What is Redux-Thunk ?
+        6. How to use Redux Thunk ?
+        7. Continue with the same Book Application as in session 10
+
+## Session 13
+
+    - Topics Covered (Redux)
+        1. Combining reducers
+        2. Different Hooks that Redux has for us
+        3. mapStateToProps
+        4. mapDispatchToProps
+        5. Building an app to see all the functionalities of REDUX at one place.
+
+## Session 14
+
+    - Topics Covered (Firebase + Deployment)
+        1. CRUD operations in Firebase
+        2. Realtime Database in action
+        3. React App deployment
+
+## Session 15
+
+    - Topics Covered (React Templating Libraries)
+        1. Material UI
+        2. Chakra UI
+        3. Semantic UI
+
+## Session 16
+
+    - Topics Covered
+        1. A FULL FLEDGED PROJECT to cover whatever REACT.JS we have studied till now.
