@@ -139,18 +139,18 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
         2. What is an Interceptor ?
         3. What is a Middleware ?
         4. How is middleware used ?
-        5. What is Redux-Thunk ?
-        6. How to use Redux Thunk ?
+        5. Combining reducers
         7. Continue with the same Book Application as in session 10
 
 ## Session 13
 
     - Topics Covered (Redux)
-        1. Combining reducers
-        2. Different Hooks that Redux has for us
-        3. mapStateToProps
-        4. mapDispatchToProps
-        5. Building an app to see all the functionalities of REDUX at one place.
+        1. What is Redux-Thunk ?
+        2. How to use Redux Thunk ?
+        3. Different Hooks that Redux has for us
+        4. mapStateToProps
+        5. mapDispatchToProps
+        6. Building an app to see all the functionalities of REDUX at one place.
 
 ## Session 14
 
@@ -158,6 +158,7 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
         1. CRUD operations in Firebase
         2. Realtime Database in action
         3. React App deployment
+        4. Google Auth
 
 ## Session 15
 

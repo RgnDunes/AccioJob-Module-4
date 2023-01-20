@@ -2,26 +2,25 @@ import { INITIAL_STORE_DATA } from "./reduxStore";
 import { ADD_BOOK, UPDATE_BOOK_DATA, DELETE_BOOK } from "./reduxActions";
 
 export const reduxReducer = (state = INITIAL_STORE_DATA, action) => {
-  console.log("ACTION : ", action);
   switch (action.type) {
     case ADD_BOOK:
-      //   const newBook = {};
-      //   newBook.id = action.payload.id;
-      //   newBook.name = action.payload.name;
-      //   newBook.author = action.payload.author;
-      //   newBook.page = action.payload.page;
-      //   newBook.price = action.payload.price;
-      //   newBook.currency = action.payload.currency;
+      const newBook = {};
+      newBook.id = action.payload.id;
+      newBook.name = action.payload.name;
+      newBook.author = action.payload.author;
+      newBook.page = parseInt(action.payload.page);
+      newBook.price = parseInt(action.payload.price);
+      newBook.currency = action.payload.currency;
 
       return {
         ...state,
         noOfBooks: state.noOfBooks + 1,
-        bookList: [...state.bookList, action.payload],
+        bookList: [...state.bookList, newBook],
       };
 
     case DELETE_BOOK:
       const newBookList = state.bookList.filter(
-        (book) => book.id !== action.payload.id
+        (book) => book.id !== parseInt(action.payload.id)
       );
       return {
         ...state,
