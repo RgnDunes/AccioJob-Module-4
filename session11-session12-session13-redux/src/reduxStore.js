@@ -3,6 +3,7 @@ import React from "react";
 import { createStore } from "redux";
 import { applyMiddleware, combineReducers } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
+import thunk from "redux-thunk";
 
 import { reduxReducer } from "./reduxReducer";
 import { usersReducer } from "./usersReducer";
@@ -28,10 +29,8 @@ export const INITIAL_STORE_DATA = {
       currency: "Dollar",
     },
   ],
-  usersList: [
-    { id: 1, name: "Divyansh" },
-    { id: 2, name: "Dinesh" },
-  ],
+  noOfUsers: 0,
+  usersList: [],
 };
 
 const rootReducer = combineReducers({
@@ -42,5 +41,5 @@ const rootReducer = combineReducers({
 export const reduxStore = createStore(
   rootReducer,
   INITIAL_STORE_DATA,
-  composeWithDevTools(applyMiddleware(customMiddleware))
+  composeWithDevTools(applyMiddleware(customMiddleware, thunk))
 );

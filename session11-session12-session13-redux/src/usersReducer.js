@@ -1,5 +1,5 @@
 import { INITIAL_STORE_DATA } from "./reduxStore";
-import { DELETE_USER } from "./reduxActions";
+import { DELETE_USER, INITIALIZE_USER } from "./reduxActions";
 
 export const usersReducer = (state = INITIAL_STORE_DATA, action) => {
   switch (action.type) {
@@ -10,6 +10,13 @@ export const usersReducer = (state = INITIAL_STORE_DATA, action) => {
       return {
         ...state,
         usersList: [...newUsersList],
+      };
+
+    case INITIALIZE_USER:
+      return {
+        ...state,
+        noOfUsers: action.payload.usersCollection?.length,
+        usersList: [...state.usersList, ...action.payload.usersCollection],
       };
 
     default:

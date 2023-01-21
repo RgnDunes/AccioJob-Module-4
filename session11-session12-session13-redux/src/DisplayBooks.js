@@ -2,11 +2,25 @@ import React from "react";
 
 import { DELETE_USER } from "./reduxActions";
 
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector, useDispatch, connect } from "react-redux";
 
-const DisplayBooks = () => {
-  const store = useSelector((state) => state);
+// const mapStateToProps = (state, ownProps) => {
+//   console.log("STATE : ", state);
+//   console.log("ownProps : ", ownProps);
+//   return {
+//     reduxStore: state,
+//     ownProps: ownProps,
+//   };
+// };
+
+const DisplayBooks = (props) => {
+  const customEqualityFunction = (oldValue, newValue) => {
+    console.log({ oldValue, newValue });
+  };
+  const store = useSelector((state) => state, customEqualityFunction);
   const dispatch = useDispatch();
+
+  console.log("store : ", store);
 
   const handleUserDelete = (userId) => {
     dispatch({ type: DELETE_USER, payload: { id: parseInt(userId) } });
@@ -15,7 +29,7 @@ const DisplayBooks = () => {
   return (
     <div>
       <h3>DisplayBooks</h3>
-      {store.booksReducer.bookList.map((book) => {
+      {store.reduxReducer.bookList.map((book) => {
         return (
           <div key={book.id}>
             <h4>Id : {book.id}</h4>
@@ -50,3 +64,4 @@ const DisplayBooks = () => {
 };
 
 export default DisplayBooks;
+// export default connect(mapStateToProps, null)(DisplayBooks);
