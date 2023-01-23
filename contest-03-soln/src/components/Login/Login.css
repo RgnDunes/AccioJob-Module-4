@@ -1,0 +1,33 @@
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.login-body {
+  background-color: cyan;
+  width: max-content;
+  height: max-content;
+  padding: 11px 17px;
+  border-radius: 5px;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: green;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 7px 7px;
+  margin: 12px 0 9px 0;
+}
+
+.error {
+  width: max-content;
+  background-color: red;
+  padding: 12px;
+  color: white;
+  font-weight: 600;
+}

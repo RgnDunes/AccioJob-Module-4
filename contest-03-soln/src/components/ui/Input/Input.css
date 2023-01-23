@@ -1,0 +1,14 @@
+.input-container {
+  width: max-content;
+  padding: 2px;
+  margin: 7px 0;
+}
+
+.input-box {
+  padding: 5px 9px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid green;
+  background: cyan;
+  width: 300px;
+}
