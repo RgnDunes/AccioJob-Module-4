@@ -10,12 +10,11 @@ const USERS_ENDPOINT = "https://jsonplaceholder.typicode.com/users";
 const mapDispatchToProps = (dispatch) => {
   return {
     initializeUser: (newUsersList) => {
-        return dispatch({
-          type: INITIALIZE_USER,
-          payload: { usersCollection: newUsersList },
-        });
-      }
-    ),
+      return dispatch({
+        type: INITIALIZE_USER,
+        payload: { usersCollection: newUsersList },
+      });
+    },
   };
 };
 
