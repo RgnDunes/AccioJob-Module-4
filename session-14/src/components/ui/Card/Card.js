@@ -1,9 +1,12 @@
 import React from "react";
 
+import { useNavigate } from "react-router-dom";
+
 import "./Card.css";
 import QuantityCounter from "../QuantityCounter/QuantityCounter";
 
 const Card = ({ name, price, id, img }) => {
+  const navigate = useNavigate();
   return (
     <div className="card-box">
       <div className="card-body">
@@ -15,7 +18,14 @@ const Card = ({ name, price, id, img }) => {
 
         <QuantityCounter />
 
-        <button className="product-details-btn">More Details</button>
+        <button
+          className="product-details-btn"
+          onClick={() => {
+            navigate("/product/someid");
+          }}
+        >
+          More Details
+        </button>
       </div>
     </div>
   );
