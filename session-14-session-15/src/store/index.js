@@ -1,5 +1,7 @@
 import { createStore } from "redux";
 
+import { composeWithDevTools } from "redux-devtools-extension";
+
 import { rootReducer } from "./reducer";
 
 export const initialState = {
@@ -93,4 +95,8 @@ export const initialState = {
   ],
 };
 
-export const store = createStore(rootReducer, initialState);
+export const store = createStore(
+  rootReducer,
+  initialState,
+  composeWithDevTools()
+);

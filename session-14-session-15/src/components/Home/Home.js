@@ -1,4 +1,5 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
 import { useNavigate } from "react-router-dom";
 
@@ -6,6 +7,7 @@ import "./Home.css";
 
 const Home = () => {
   const navigate = useNavigate();
+  const store = useSelector((state) => state);
 
   return (
     <div>
@@ -30,7 +32,7 @@ const Home = () => {
             navigate("/cart");
           }}
         >
-          Cart ()
+          Cart ({store.cart.length})
         </button>
       </div>
     </div>

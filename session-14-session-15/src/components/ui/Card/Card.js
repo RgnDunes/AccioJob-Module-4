@@ -16,12 +16,12 @@ const Card = ({ name, price, id, img }) => {
         <div className="card-item-name">{name}</div>
         <div className="card-item-price">{price}</div>
 
-        <QuantityCounter />
+        <QuantityCounter id={id} />
 
         <button
           className="product-details-btn"
           onClick={() => {
-            navigate("/product/someid");
+            navigate(`/product/${id}`);
           }}
         >
           More Details
