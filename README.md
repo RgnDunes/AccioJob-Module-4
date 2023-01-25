@@ -155,18 +155,18 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
 ## Session 14
 
     - Topics Covered (Contest Solution + E-Commerce Redux Application)
+        1. Contest Solution
+        2. E-Commerce Redux Application
 
 ## Session 15
 
-    - Topics Covered (Firebase + Deployment)
-        1. CRUD operations in Firebase
-        2. Realtime Database in action
-        3. React App deployment
-        4. Google Auth
+    - Topics Covered
+        1. Resuming E-Commerce Redux Application
+        2. Material UI
+        3. Chakra UI
+        4. Semantic UI
 
 ## Session 16
 
-    - Topics Covered (React Templating Libraries)
-        1. Material UI
-        2. Chakra UI
-        3. Semantic UI
+    - Topics Covered (Digging into CRA)
+        1. Creating react app without using CRA Command.
