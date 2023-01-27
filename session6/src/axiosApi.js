@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 import axios from "axios";
-import { findAllInRenderedTree } from "react-dom/test-utils";
 
 const client = axios.create({
   baseURL: "https://jsonplaceholder.typicode.com/posts",

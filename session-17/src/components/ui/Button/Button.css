@@ -1,0 +1,19 @@
+.login-btn {
+  outline: none;
+  color: white;
+  width: 100%;
+  padding: 9px 0;
+  font-weight: 600;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.true {
+  background-color: red;
+  border: 1px solid red;
+}
+
+.false {
+  background-color: green;
+  border: 1px solid green;
+}

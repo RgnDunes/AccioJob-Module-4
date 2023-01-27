@@ -1,0 +1,7 @@
+table {
+  width: max-content;
+  height: 100vh;
+}
+th {
+  text-align: inherit;
+}

@@ -1,0 +1,21 @@
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+  align-items: end;
+}
+
+.input-label {
+  font-weight: 500;
+  font-size: 1.2em;
+  padding-right: 12px;
+}
+
+.input-box {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: inherit;
+  width: 350px;
+  padding: 11px;
+}
