@@ -170,3 +170,21 @@ This repo contains the code part for the sessions I'll be taking for Frontend Mo
 
     - Topics Covered (Digging into CRA)
         1. Creating react app without using CRA Command.
+
+## Session 17
+
+        - Project Title- Auth based User Management App
+        - Figma Link- https://www.figma.com/file/3WaYPCBB6gm9I9wxOyq48A/Untitled?node-id=0%3A3&t=CdkNl944Z2hcRI5X-1
+        - Topics covered in the project- React Router DOM, Hooks, Redux, Working with API’s (axios : https://reqres.in/)
+
+        - Matrices covered during the session-
+            1. Route Management (Private & Restricted Routes)
+            2. Redux (Store token and id to use as the authentication + user list)
+            3. Api calls (get and post)
+
+        - Matrices to be covered by the student-
+            1. Create filters to sort out data
+            2. Implement pagination functionality making some changes in fetch users api
+            3. Make the app mobile responsive
+            4. Break app into independent components using React Composition Model
+            5. Use MUI (material ui) or Semantic UI or Chakra UI to create a better looking app.
